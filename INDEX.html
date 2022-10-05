@@ -1,0 +1,412 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    </head>
+<style>
+    * {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    .parallax {
+  /* The image used */
+  background-image: url('pimge.jpg');
+
+  /* Full height */
+  height: 50%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+    @media screen and(max-width: 768px){
+        .parallax{
+            background-attachment: inherit;
+        }
+    }
+        .parallax2 {
+  /* The image used */
+  background-image: url('pimage2.jpg');
+
+  /* Full height */
+  height: 70%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+        @media screen and(max-width: 768px){
+        .parallax2{
+            background-attachment: inherit;
+        }
+    }
+        .listimg {
+  /* The image used */
+  
+
+  /* Full height */
+
+
+
+  /* Create the parallax scrolling effect */
+
+}
+
+    div.example {
+  background-color:#f69da2;
+   font-family: 'Brush Script MT', sans-serif;
+  padding: 40px;
+  color: white;
+  line-height: 1.6;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+    font-size: 20px;
+  }
+}
+    div.example2 {
+  background-color:#a3dad4;
+   font-family: 'Brush Script MT', sans-serif;
+  padding: 40px;
+  color: white;
+  line-height: 1.6;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.example2 {
+    font-size: 20px;
+  }
+}
+    
+      div.example4 {
+  background-color:white;
+   font-family: 'Brush Script MT', sans-serif;
+  padding: 40px;
+  color: black;
+  line-height: 1.6;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.example4 {
+    font-size: 20px;
+  }
+}
+    
+    
+      div.example3 {
+  background-color:white;
+   font-family: 'Brush Script MT', sans-serif;
+  padding: 40px;
+  color: black;
+  line-height: 1.6;
+
+}
+
+@media screen and (min-width: 601px) {
+  div.example3 {
+    font-size: 20px;
+  }
+}
+    .pink{
+        font-family: bold;
+        font-size: 
+        #color:#fcdfdf,blue:#a3dad4;
+    }
+    .left{
+        background-color: #a3dad4;
+    }
+.responsive {
+  width: 100%;
+  height: auto;
+}
+    body{
+  margin: 0;
+  font-family: monospace;
+  background-color: white;
+
+}
+
+.topnav {
+  position: fixed;
+  overflow: hidden;
+  background-color: white;
+  opacity: 0.8;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #DA680F;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+    .me{
+        background-color: black;
+        opacity: 0.5;
+    }
+    .map-respon{
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height:0;
+    }
+    .map-respon iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+</style>
+
+<body>
+    <div class="topnav" id="myTopnav">
+  <a href="tel:9994399232"><i class="fa fa-phone" style="font-size:24px;"></i></a> 
+  <a href="https://shorturl.at/eluz0"><i class="fa fa-map-marker" style="font-size:24px;"></i></a> 
+    <a href="instagram://user?username={abishek_raghavan__}"><i class="fa fa-instagram" style="font-size:24px;"></i></a>
+   <a href="https://api.whatsapp.com/send?phone=9994399232"><i class="fa fa-whatsapp" style="font-size:24px;"></i></a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<img src="banner1.png" alt="Nature" class="responsive" width="600" height="400">
+    
+    <div class="example"><p>Are you looking for a fine music academy? Answer is simple, and the name is
+elite. Yes! &#39;OM MUSIC Academy is one of the prime music academies in karur.
+There are well trained masters teaching us great music and helping us taste the
+elixir of music. Here, students will not only have the opportunity of mastering the
+music but also share it with others: they&#39;ll have plenty of chances to perform on
+many stages. There are more than half-hundred music seeking students there in
+&#39;OM MUSIC Academy and they have performed on many stages. For music
+lovers, age is just a number, from the age of less than &#39;7&#39; to age &#39;50&#39; are learning
+music. If one thinks that age matters, then, it&#39;s an excuse, it really doesn&#39;t. The
+masters who teach here are patient and will make you understand the music.
+They&#39;re experts in making your learning environment a fun packed and
+comfortable place , to protect and preserve the learner&#39;s curiosity and mindset.
+The students will have a
+a lot of chances to perform in many stages within karur and around and
+everywhere to represent Music under the banner of &#39;OM MUSIC&#39; academy -
+every time is a cake walk for the students. </p></div><div class="parallax"></div>
+    
+      <div class="parallax"></div>
+    <div class="example2">
+        <h2 style="font-family: cursive;">INTRUMENTS YOU CAN LEARN</h2><div class="row">
+        <div class="left">  
+  <div class="column" style="background-color:white;color: black;">
+   <div class="w3-container">
+  <ul class="w3-ul w3-card-4">
+    <li class="w3-bar">
+      <img src="panio.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width: 85px;">
+      <div class="w3-bar-item">
+        <span class="w3-large">PANIO</span><br>
+           </div>
+    </li>
+
+    <li class="w3-bar">
+      <img src="guitar.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">GUITAR</span><br>
+      </div>
+    </li>
+
+    <li class="w3-bar">
+      <img src="drums.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">DRUMS</span><br>
+      </div>
+    </li>
+      
+  </ul>
+      </div>
+</div>
+  </div>
+  <div class="column" style="background-color:white;color: black;">
+    <div class="w3-container">
+  <ul class="w3-ul w3-card-4">
+    <li class="w3-bar">
+      <img src="panio.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">PANIO</span><br>
+           </div>
+    </li>
+
+    <li class="w3-bar">
+      <img src="guitar.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">GUITAR</span><br>
+      </div>
+    </li>
+
+    <li class="w3-bar">
+      <img src="drums.jpg" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+      <div class="w3-bar-item">
+        <span class="w3-large">DRUMS</span><br>
+      </div>
+    </li>
+      
+  </ul>
+</div>
+  </div>
+</div></div><div class="parallax2"></div>
+     <div class="example3"><p>I can sense that your mind,heart,eyes, literally your house of emotions are
+dreaming about a musician&#39;s life and the people&#39;s applause to you for what you
+have done with your dream instrument that you have just seen in the instrument
+list, above.
+Yeah! I can sense that but you know what, many people will dream about their
+passion and talk their mind into that dream, about achieving their passion, about
+building that castle of dream and do some great work too but the thing is - some
+people only have that courage to chase their dream and achieve that; you are one
+
+of them. It&#39;s never too late to start . Everyone can achieve their dream at any age,
+Yes! your passion to become a musician is right in front of you, and we are here to
+give you the great knowledge of music and any instrument that you are wishing to
+learn, wishing to make an outstanding performance in front of the people and
+win their hearts with your magical music. For this, All you have to do is to take a
+step towards your passion and your dream with our academy. We are here to help
+you in any way possible.
+What could possibly be your first step in making your dream and passion come
+true?
+It&#39;s very simple, just click the &quot;PHONE ICON&quot; and contact us before your
+excitement expires. you can text us in whatsapp by clicking the &quot;WHATSAPP
+ICON&quot;. Passionate souls are always welcome to our academy &quot;OM
+MUSIC&quot;Academy. You can find us by clicking the &quot;LOCATION ICON&quot; - so
+you can move forward with your dream a step forward. If you are interested in
+our students&#39; performances and our achievements, you&#39;re always welcome - you
+can just verify it by using the &quot;INSTAGRAM ICON&quot;, to check our page. </p>
+    <h1 style="text-align: center;"><a href="https://www.google.com/search?q=om+music+academy&oq=om+music+academy&aqs=chrome.0.69i59j46i175i199i512j0i22i30j0i15i22i30i457j0i22i30j69i60l3.5511j0j4&sourceid=chrome&ie=UTF-8">"OM MUSIC ACADEMY"</a></h1>
+    </div>
+    <div class="map-respon">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.084752402623!2d78.0681848141178!3d10.956970458832933!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baa2fa5c95353a7%3A0x609c0f92f98bc7f6!2sOM%20MUSIC%20ACADEMY!5e0!3m2!1sen!2sin!4v1658159149041!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    <div class="example3">
+        <h2 style="font-family: cursive;text-align: center;">HERE IS THE REVIEWS OF LOVELY PEOPLE</h2><div class="row">
+  <div class="column" style="background-color:white;color: black;">
+   <div class="w3-container">
+  <ul class="w3-ul w3-card-4">
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+          <img src="female.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <span class="w3-large">MINU:</span><br>
+        <span>Good place to pursue our passion in music.</span>
+           </div>
+    </li>
+
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+          <img src="male.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <span class="w3-large">GOPALAN:</span><br>
+          <span>Write place you will get a good knowledge in this place
+</span>
+      </div>
+    </li>
+      </ul>
+</div>
+  </div>
+  <div class="column" style="background-color:white;color: black;">
+    <div class="w3-container">
+  <ul class="w3-ul w3-card-4">
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+          <img src="male.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <span class="w3-large">GOWRI SHANKAR</span><br>
+          <span>Nice coaching.</span>
+           </div>
+    </li>
+
+    <li class="w3-bar">
+      <div class="w3-bar-item">
+          <img src="male.png" class="w3-bar-item w3-circle w3-hide-small" style="width:85px">
+        <span class="w3-large">ABI</span><br>
+          <span>there is an ocean of emotion about music!</span>
+      </div>
+    </li>
+      
+  </ul>
+</div>
+     
+  </div>
+        </div><p style="text-align: center;"><a href="https://www.google.com/search?q=om+music+academy&oq=om+music+academy&aqs=chrome.0.69i59j46i175i199i512j0i22i30j0i15i22i30i457j0i22i30j69i60l3.5511j0j4&sourceid=chrome&ie=UTF-8">READ MORE REVIEWS</a></p></div>
+    <script>
+    
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+</body>
+</html>
